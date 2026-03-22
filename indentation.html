@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile</title>
+
+<style>
+
+body{
+    margin: 20px 160px 20px 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FFEAD3;
+}
+
+/* header section */
+.container{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:30px;
+    padding:20px;
+    background-color:#C5D89D;
+}
+
+/* text section */
+.info{
+    max-width:70%;
+}
+
+.info h2{
+    margin:0;
+    color:#9E3B3B;
+}
+
+.info h4{
+    margin:5px 0 10px 0;
+    color:#D25353;
+    font-weight:normal;
+}
+
+/* summary paragraph */
+.summary{
+    text-align:justify;
+    line-height:1.6;
+    color:#3E2723;
+    font-size:14px;
+}
+
+/* PROFILE IMAGE BORDER */
+.profile-img img{
+    width:160px;
+    height:160px;
+    border-radius:5%;
+    object-fit:cover;
+    border:4px solid #D25353;
+}
+
+/* headings */
+.Academic{
+  text-align: center;
+  color:#9E3B3B;
+}
+
+/* TABLE BORDER */
+table{
+    background-color:#C5D89D;
+    border:3px solid #9E3B3B;
+    border-collapse:collapse;
+}
+
+th{
+    background-color:#D25353;
+    color:white;
+    border:2px solid #9E3B3B;
+}
+
+td{
+    color:#3E2723;
+    border:2px solid #9E3B3B;
+}
+
+/* hobbies */
+.image-row{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+    margin-top:30px;
+    padding:20px;
+    background-color:#C5D89D;
+}
+
+.image-box{
+    text-align:center;
+}
+
+/* HOBBY IMAGE BORDERS */
+.image-box img{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #D25353;
+}
+
+.image-box p{
+    margin-top:8px;
+    font-weight:bold;
+    color:#3E2723;
+}
+
+/* goals */
+.goals-container{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    gap:30px;
+    margin-top:20px;
+    padding:20px;
+    background-color:#C5D89D;
+}
+
+.goal-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+/* GOAL IMAGE BORDER */
+.goal-box img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #D25353;
+}
+
+.goal-box p{
+    color:#3E2723;
+}
+
+/* fun facts */
+.funfacts-container{
+    margin-top:20px;
+    padding:20px;
+    background-color:#C5D89D;
+}
+
+.funfact-row{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:15px;
+}
+
+/* FUN FACT IMAGE BORDER */
+.funfact-row img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #D25353;
+}
+
+.funfact-row p{
+    margin:0;
+    font-size:15px;
+    color:#3E2723;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="info">
+        <h2>Dishita Sri Kamal</h2>
+        <h4>UG Student at IIM Bangalore</h4>
+
+        <p class="summary">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fugiat suscipit 
+        reiciendis consectetur numquam, officia tempore excepturi modi corrupti, 
+        laudantium illum, a sit deserunt necessitatibus. Maxime ipsam impedit 
+        asperiores eius.
+        </p>
+    </div>
+
+    <div class="profile-img">
+        <img src="images\image.png" alt="Dishita Photo">
+    </div>
+
+</div>
+
+<div>
+  <h3 class="Academic">Academic Qualifications</h3>
+
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+  
+  <tr>
+    <th>Year</th>
+    <th>Course</th>
+    <th>Institute</th>
+    <th>CGPA</th>
+  </tr>
+
+
+  <tr>
+    <td>2025</td>
+    <td>Class XII (Science)</td>
+    <td>Kendriya Vidyalaya No.2 Golconda</td>
+    <td>8.3</td>
+  </tr>
+
+  <tr>
+    <td>2023</td>
+    <td>Class X</td>
+    <td>Kendriya Vidyalaya No.2 Golconda</td>
+    <td>9.27</td>
+  </tr>
+
+</table>
+</div>
+<h3 class="Academic">Hobbies</h3>
+<div class="image-row">
+    <div class="image-box">
+        <img src="images/WhatsApp Image 2026-03-22 at 21.38.54.jpeg" alt="Image 1">
+        <p>Kuchipudi Dance</p>
+    </div>
+
+    <div class="image-box">
+        <img src="images/painting.jpeg" alt="Image 2">
+        <p>Painting</p>
+    </div>
+
+    <div class="image-box">
+        <img src="images/WhatsApp Image 2026-03-22 at 21.38.55.jpeg" alt="Image 3">
+        <p>Reading books</p>
+    </div>
+
+</div>
+
+<h3 class="Academic">Goals</h3>
+
+<div class="goals-container">
+
+  <div class="goal-box">
+    <img src="images/WhatsApp Image 2026-03-22 at .jpeg" alt="Goal 1">
+    <p>Join the Indian Air Force</p>
+  </div>
+
+  <div class="goal-box">
+    <img src="images/WhatsApp Image 2026-03-22 at 21.38.56.jpeg" alt="Goal 2">
+    <p>Become a Successful Business Leader</p>
+  </div>
+
+</div>
+<h3 class="Academic">Fun Facts</h3>
+
+<div class="funfacts-container">
+
+  <div class="funfact-row">
+    <img src="images/jnoj.jpeg" alt="Fun Fact 1">
+    <p>I can read a fiction or a mystery thriller book under 24hrs but a self-help book would be DNF-ed immediatly.</p>
+  </div>
+
+  <div class="funfact-row">
+    <img src="images/WhatsApp Image 2026-03-22 at 22.11.08.jpeg" alt="Fun Fact 2">
+    <p>I can learn any dance under 4hrs.</p>
+  </div>
+
+  <div class="funfact-row">
+    <img src="images/baking.jpeg" alt="Fun Fact 3">
+    <p>I experiment more in the kitchen than any other place. I bake for fun.</p>
+  </div>
+
+  <div class="funfact-row">
+    <img src="images/guitar.jpeg" alt="Fun Fact 4">
+    <p>I am learning to play the guitar. Though "happy birthday" is the only song I can play, I aim to play freestyle one day.</p>
+  </div>
+
+
+</div>
+
+
+</body>
+</html>
