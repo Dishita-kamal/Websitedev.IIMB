@@ -5,12 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Profile</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 <style>
 
 body{
     margin: 20px 160px 20px 160px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color:#FFEAD3;
+}
+
+/* Titles (Sirivennela style fallback) */
+.info h2,
+.Academic{
+    font-family: 'Sirivennela', 'Playfair Display', serif;
+}
+
+/* Optional: make headings more elegant */
+.info h2{
+    font-size:28px;
+    letter-spacing:1px;
+}
+
+.Academic{
+    font-size:22px;
 }
 
 /* header section */
@@ -176,7 +193,7 @@ td{
 <div class="container">
 
     <div class="info">
-        <h2>Dishita Sri Kamal</h2>
+        <h2>Dishita Sri Kamal Ruttala </h2>
         <h4>UG Student at IIM Bangalore and St.Francis college for women, Hyderabad</h4>
 
         <p class="summary">
@@ -200,9 +217,22 @@ td{
     <th>Year</th>
     <th>Course</th>
     <th>Institute</th>
-    <th>CGPA</th>
+    <th>CGPA/%</th>
   </tr>
 
+ <tr>
+    <td>2025-2028</td>
+    <td>B.sc in Math, Economics and Statistics</td>
+    <td>St.Francis College for Women</td>
+    <td>9.2</td>
+  </tr>
+
+   <tr>
+    <td>2025-2028</td>
+    <td>BBA-DBE</td>
+    <td>IIM Bangalore</td>
+    <td>7.7</td>
+  </tr>
 
   <tr>
     <td>2025</td>
@@ -243,16 +273,20 @@ td{
 
 <div class="goals-container">
 
-  <div class="goal-box">
-    <img src="images/WhatsApp Image 2026-03-22 at .jpeg" alt="Goal 1">
-    <p>Join the Indian Air Force</p> 
+  <div>
+    <div class="goal-box">
+      <img src="images/WhatsApp Image 2026-03-22 at .jpeg" alt="Goal 1">
+      <p>Join the Indian Air Force</p> 
+    </div>
     <p>I look forward to serving my nation even for the shortest of time. Growing up, I have always been fascinated about planes and flying objects. It would be an absolute honour to give back to the country which gave me so much.</p>
   </div>
 
-  <div class="goal-box">
-    <img src="images/WhatsApp Image 2026-03-22 at 21.38.56.jpeg" alt="Goal 2">
-    <p>Become a Successful Business Leader</p>
-    <p>My goal after retiring from the armed forces is to open a clothing store which sells sarees and merchandise sourced directly from the weavers. This is my passion project. I want to show the world how beautiful Indian craftsmanship is. </p>
+  <div>
+    <div class="goal-box">
+      <img src="images/WhatsApp Image 2026-03-22 at 21.38.56.jpeg" alt="Goal 2">
+      <p>Become a Successful Business Leader</p>
+    </div>
+    <p>My goal after retiring from the armed forces is to open a clothing store which sells sarees and merchandise sourced directly from the weavers. This is my passion project. I want to show the world how beautiful Indian craftsmanship is.</p>
   </div>
 
 </div>
